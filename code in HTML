@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ikchhita Bhatnagar | Backend Developer</title>
+    <meta name="description" content="Portfolio of Ikchhita Bhatnagar, a Backend Developer skilled in Java, Spring Boot, and API development.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <span class="code-punct">&lt;</span>Ikchhita<span class="code-punct">/&gt;</span>
+        </div>
+        <div class="nav-right" style="display: flex; align-items: center; gap: 2rem;">
+            <ul class="nav-links">
+                <li><a href="#about">01. About</a></li>
+                <li><a href="#skills">02. Skills</a></li>
+                <li><a href="#projects">03. Projects</a></li>
+                <li><a href="#journey">04. Journey</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">
+                <i class='bx bx-sun' id="theme-icon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section fade-in">
+            <div class="hero-content">
+                <p class="hero-greeting"><span class="code-comment">// Hello, World! I am</span></p>
+                <h1 class="hero-name">Ikchhita Bhatnagar.</h1>
+                <h2 class="hero-subtitle">
+                    Building scalable <span id="animated-text" class="animated-text">Systems</span><span class="cursor">_</span>
+                </h2>
+                <p class="hero-desc">
+                    Backend enthusiast specialized in Java and API development. Focused on solving real-world problems through efficient, maintainable, and robust system design.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn-primary">View Projects</a>
+                    <a href="https://github.com/LowkeyCoder-Afk" target="_blank" class="btn-social"><i class='bx bxl-github'></i></a>
+                    <a href="https://linkedin.com/in/ikshita-bhatnagar-744ba1221" target="_blank" class="btn-social"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section fade-in">
+            <div class="section-header">
+                <h2><span class="code-punct">01.</span> Objective & About</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="about-card">
+                <div class="code-block">
+                    <div class="code-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="filename">objective.java</span>
+                    </div>
+                    <div class="code-body">
+                        <p><span class="code-keyword">public class</span> <span class="code-class">Profile</span> {</p>
+                        <p class="indent-1"><span class="code-keyword">public</span> <span class="code-type">String</span> <span class="code-func">getObjective</span>() {</p>
+                        <p class="indent-2"><span class="code-keyword">return</span> <span class="code-string">"Curious and analytical backend enthusiast skilled in Java and API development, focused on solving real-world problems through efficient, maintainable, and scalable system design. Seeking a Software Developer role to apply backend skills and grow in a collaborative, impact-driven environment."</span>;</p>
+                        <p class="indent-1">}</p>
+                        <p>}</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section fade-in">
+            <div class="section-header">
+                <h2><span class="code-punct">02.</span> Technical Skills</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="skills-grid">
+                <!-- Node 1 -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class='bx bx-code-alt'></i></div>
+                    <h3>Languages</h3>
+                    <div class="tags">
+                        <span>Java</span>
+                        <span>Python</span>
+                        <span>JavaScript</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+                <!-- Node 2 -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class='bx bx-server' ></i></div>
+                    <h3>Frameworks</h3>
+                    <div class="tags">
+                        <span>Spring Boot</span>
+                        <span>REST APIs</span>
+                        <span>JDBC</span>
+                        <span>React</span>
+                    </div>
+                </div>
+                <!-- Node 3 -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class='bx bx-data'></i></div>
+                    <h3>Database</h3>
+                    <div class="tags">
+                        <span>MySQL</span>
+                    </div>
+                </div>
+                <!-- Node 4 -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class='bx bx-wrench'></i></div>
+                    <h3>Tools</h3>
+                    <div class="tags">
+                        <span>Git</span>
+                        <span>GitHub</span>
+                        <span>VS Code</span>
+                    </div>
+                </div>
+                <!-- Node 5 -->
+                <div class="skill-card wide-card">
+                    <div class="skill-icon"><i class='bx bx-brain'></i></div>
+                    <h3>Concepts</h3>
+                    <div class="tags">
+                        <span>OOP</span>
+                        <span>SDLC</span>
+                        <span>Clean Code</span>
+                        <span>Modular Architecture</span>
+                        <span>Exception Handling</span>
+                        <span>DSA</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section fade-in">
+            <div class="section-header">
+                <h2><span class="code-punct">03.</span> Projects</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-top">
+                        <div class="folder-icon"><i class='bx bx-folder'></i></div>
+                        <h3 class="project-title">Employee Management System</h3>
+                        <p class="project-desc">Developed a production-ready RESTful backend to manage employee records with full CRUD functionality. Designed a clean layered architecture (Controller-Service-Repository) ensuring clear separation of concerns and long-term scalability. Implemented centralized exception handling (@ControllerAdvice) and validation (@Valid).</p>
+                    </div>
+                    <div class="project-bottom">
+                        <div class="tech-stack">
+                            <span>Spring Boot</span>
+                            <span>REST APIs</span>
+                            <span>Spring Data JPA</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-top">
+                        <div class="folder-icon"><i class='bx bx-folder'></i></div>
+                        <h3 class="project-title">Mini Banking Application</h3>
+                        <p class="project-desc">Built a fully functional console-based banking system supporting account creation, balance inquiries, deposits, and transaction history. Modeled real-world banking workflows using core OOP principles for a maintainable codebase. Used JDBC (PreparedStatement) for secure database interactions and transaction management to guarantee data consistency.</p>
+                    </div>
+                    <div class="project-bottom">
+                        <div class="tech-stack">
+                            <span>Core Java</span>
+                            <span>JDBC</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-top">
+                        <div class="folder-icon"><i class='bx bx-folder'></i></div>
+                        <h3 class="project-title">Online Quiz Engine</h3>
+                        <p class="project-desc">Developed a modular quiz application with multiple-choice questions, timed sessions, automated evaluation, and real-time scoring. Leveraged Java Collections (ArrayList, HashMap) for ordered storage and fast computation. Designed with extensible architecture to allow seamless addition of new question sets.</p>
+                    </div>
+                    <div class="project-bottom">
+                        <div class="tech-stack">
+                            <span>Core Java</span>
+                            <span>Collections</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-card" onclick="window.open('https://github.com/LowkeyCoder-Afk/Spotify-Bot', '_blank')" style="cursor: pointer;">
+                    <div class="project-top">
+                        <div class="folder-icon"><i class='bx bx-folder'></i></div>
+                        <h3 class="project-title">Spotify Automation Bot</h3>
+                        <p class="project-desc">Built an end-to-end automation tool using Python to manage Spotify playlists, queue operations, and playback. Implemented OAuth 2.0 for secure authentication. Automated tasks like song addition, reordering, and deletion. Handled complete API lifecycle from HTTP request construction to JSON response parsing.</p>
+                    </div>
+                    <div class="project-bottom">
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Spotify Web API</span>
+                            <span>OAuth 2.0</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Journey Section -->
+        <section id="journey" class="journey-section fade-in">
+            <div class="section-header">
+                <h2><span class="code-punct">04.</span> Journey & Education</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card-shadow">
+                        <div class="time-header">
+                            <h3>B.Tech - Computer Science Engineering</h3>
+                            <span class="duration">2022 - 2026 (Expected)</span>
+                        </div>
+                        <p class="institution">KCC Institute of Technology and Management, Greater Noida</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot highlight-dot"></div>
+                    <div class="timeline-content card-shadow">
+                        <div class="time-header">
+                            <h3>HCL Training & Project Completion Certification</h3>
+                            <span class="duration">Certification</span>
+                        </div>
+                        <p class="institution">HCL Technologies</p>
+                        <p class="desc">Completed industry-oriented training with practical exposure to real-world project development. Delivered project work demonstrating strong understanding of core technical concepts.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card-shadow">
+                        <div class="time-header">
+                            <h3>Class XII (Senior Secondary)</h3>
+                            <span class="duration">2021 - 2022</span>
+                        </div>
+                        <p class="institution">Siddharth Public School</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card-shadow">
+                        <div class="time-header">
+                            <h3>Class X (Secondary)</h3>
+                            <span class="duration">2019 - 2020</span>
+                        </div>
+                        <p class="institution">DAV Public School</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Game Widget -->
+    <div id="game-widget" style="position: fixed; bottom: 20px; right: 20px; z-index: 9999; display: flex; flex-direction: column; align-items: flex-end;">
+        <div id="scoreBoard" style="display: none; background: var(--surface-color); padding: 10px 15px; border-radius: 8px; box-shadow: var(--shadow-hover); border: var(--border-subtle); margin-bottom: 10px; font-family: var(--font-code); font-size: 0.9rem;">
+            Bugs Squashed: <span id="bugScore" style="color: var(--code-string); font-weight: bold; font-size: 1.1rem;">0</span>
+            <button id="stopGameBtn" style="background:none; border:none; color:var(--code-keyword); cursor:pointer; margin-left:15px; font-size: 1.1rem;" title="Stop Game"><i class='bx bx-stop-circle'></i></button>
+        </div>
+        <button id="startGameBtn" class="btn-primary" style="border-radius: 50px; padding: 10px 20px; box-shadow: var(--shadow-hover);"><i class='bx bx-joystick'></i> Bored?</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h2 class="footer-title">Let's Connect</h2>
+            <p>Currently seeking opportunities for Software Developer roles.</p>
+            <div class="contact-methods">
+                <a href="mailto:ikshitabhatnagar16@gmail.com"><i class='bx bx-envelope'></i> ikshitabhatnagar16@gmail.com</a>
+                <a href="tel:+917065653155"><i class='bx bx-phone'></i> +91 7065653155</a>
+                <span><i class='bx bx-map'></i> Ghaziabad, UP</span>
+            </div>
+            <div class="footer-socials">
+                <a href="https://github.com/LowkeyCoder-Afk" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://linkedin.com/in/ikshita-bhatnagar-744ba1221" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <p class="copyright">Designed & Built by Ikchhita Bhatnagar</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
