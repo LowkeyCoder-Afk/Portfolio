@@ -5,13 +5,7 @@ Created my portfolio using HTML, CSS, JAVASCRIPT
 Welcome to my personal portfolio website! 🚀
 This project showcases my skills, projects, and journey as a **Backend Developer** with a focus on building scalable and efficient systems.
 
----
 
-## 🌐 Live Preview
-
-> *(Add your deployed link here if hosted)*
-
----
 
 ## 📌 About Me
 
@@ -24,7 +18,7 @@ I am a **Backend Enthusiast** skilled in:
 
 I enjoy solving real-world problems by building **robust, maintainable, and efficient backend systems**.
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -61,7 +55,7 @@ I enjoy solving real-world problems by building **robust, maintainable, and effi
 * Exception Handling
 * Data Structures & Algorithms
 
----
+
 
 ## 🚀 Features of Portfolio
 
@@ -72,7 +66,6 @@ I enjoy solving real-world problems by building **robust, maintainable, and effi
 * Developer-style code-themed design
 * Smooth navigation and transitions
 
----
 
 ## 📂 Sections Included
 
@@ -83,7 +76,6 @@ I enjoy solving real-world problems by building **robust, maintainable, and effi
 * **Journey** – Education & certifications
 * **Footer** – Contact & social links
 
----
 
 ## 📁 Projects Highlighted
 
@@ -141,7 +133,6 @@ cd portfolio
 
 3. Open `index.html` in your browser.
 
----
 
 ## 📬 Contact Me
 
@@ -151,7 +142,7 @@ cd portfolio
 * 💼 LinkedIn: https://linkedin.com/in/ikshita-bhatnagar-744ba1221
 * 🐙 GitHub: https://github.com/LowkeyCoder-Afk
 
----
+
 
 ## ✨ Future Improvements
 
@@ -160,12 +151,11 @@ cd portfolio
 * Deploy with custom domain
 * Add blog section
 
----
+
 
 ## ⭐ Show Your Support
 
 If you like this project, give it a ⭐ on GitHub!
 
----
 
 ### 👩‍💻 Designed & Built by Ikchhita Bhatnagar
